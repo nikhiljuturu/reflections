@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+A : When there are multiple contributors to a project or multiple people working on a project, having a central repository where all changes are saved might be helpful.
