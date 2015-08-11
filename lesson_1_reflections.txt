@@ -2,15 +2,40 @@
 diff -u file1.txt file2.txt #for unix,terminal
 fc file1.txt file2.txt #for windows
 
+git log - list of all commits/changes made to the repository over time 
+EXAMPLE OUTPUT - 
+commit fe7993e56fd8fa4aea19642f56b23f6d8590ee75
+Author: Doug McInnes <doug@dougmcinnes.com>
+Date:   Thu May 13 22:54:42 2010 -0700
+
+    now capturing down key so people don't accidently scroll the page
+
+commit 343935ff4f3853653f23e3694d64ffa3035ed1de
+Author: Doug McInnes <doug@dougmcinnes.com>
+Date:   Tue May 11 08:45:49 2010 -0700
+
+    added license
+
+commit 80f3bc7aab53d79640da819d9c1c7e05f9f57620
+Author: Doug McInnes <doug@dougmcinnes.com>
+Date:   Tue May 11 08:43:10 2010 -0700
+
+    increased canvas size
+
+commit 7dc3de00f48a2e6e55a6daf1ad045f3855672301
+Author: Doug McInnes <doug@dougmcinnes.com>
+Date:   Sat May 8 00:18:54 2010 -0700
+
+    made the framerate counter dumb but more accurate
 
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
-
 A : By knowing what changes were made at each point of time and understanding how they affected the program, efficiency of a programmer is increased and mistakes are not repeated.
 
 git diff commit_id_1 commit_id_2 #This shows us the difference between the two versions of the code on git.
 
-How often to commit? #one commit per logical change and explaining it is a good rule of thumb.
+How often to commit? 
+A : one commit per logical change and explaining it is a good rule of thumb.
 
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 A : Manual committing gives more power to the user to choose which change is important vs which isn't and can efficiently allocate commits without cluttering everything up. 
